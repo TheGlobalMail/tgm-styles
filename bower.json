@@ -2,7 +2,7 @@
   "name": "tgm-styles",
   "version": "0.0.1",
   "main": [
-    "./dist/tgm-styles.css"
+    "./dist/tgm-main.css"
   ],
   "ignore": [],
   "dependencies": {
