@@ -1,0 +1,28 @@
+{
+  "name": "tgm-styles",
+  "version": "0.0.1",
+  "description": "Repo of default and commonly used styles for TGM projects",
+  "main": "./tgm-styles.css",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheGlobalMail/tgm-styles.git"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css"
+  ],
+  "author": "The Global Mail",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/TheGlobalMail/tgm-styles/issues"
+  },
+  "homepage": "https://github.com/TheGlobalMail/tgm-styles",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-sass": "~0.5.1"
+  }
+}

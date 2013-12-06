@@ -1,0 +1,11 @@
+{
+  "name": "tgm-styles",
+  "version": "0.0.1",
+  "main": [
+    "./dist/tgm-styles.css"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "sass-bootstrap": "~3.0.2"
+  }
+}

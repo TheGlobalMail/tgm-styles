@@ -1,0 +1,15 @@
+// Dependencies
+@import '../bower_components/sass-bootstrap/lib/_variables';
+@import '../bower_components/sass-bootstrap/lib/_mixins';
+
+// Default variables
+@import 'tgm-layout';
+@import 'tgm-type';
+@import 'tgm-colors';
+@import 'tgm-mixins';
+@import 'tgm-navbar';
+
+// Default scaffolding
+@import 'tgm-base';
+@import 'tgm-navbar';
+@import 'tgm-responsive';
