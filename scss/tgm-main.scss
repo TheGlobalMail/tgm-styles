@@ -7,9 +7,11 @@
 @import 'tgm-type';
 @import 'tgm-colors';
 @import 'tgm-mixins';
-@import 'tgm-navbar';
 
 // Default scaffolding
 @import 'tgm-base';
-@import 'tgm-navbar';
+@import 'tgm-header';
 @import 'tgm-responsive';
+
+// Widgets
+// @import 'widgets/tgm-special-nav';

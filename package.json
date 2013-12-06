@@ -2,7 +2,7 @@
   "name": "tgm-styles",
   "version": "0.0.1",
   "description": "Repo of default and commonly used styles for TGM projects",
-  "main": "./tgm-styles.css",
+  "main": "./tgm-main.css",
   "scripts": {
     "test": "grunt test"
   },
