@@ -11,7 +11,7 @@
 
 	.article-nav-container .nav-extra,
 	.article-nav .article-nav-title  {
-		font-size: 1.2em;
+	  font-size: 1.2em;
 	}
 
 	article {
@@ -23,6 +23,7 @@
 	    }
 	  }
 	}
+}
 
 // Portrait tablets
 @media only screen and (max-width: $med-width) {
@@ -113,6 +114,7 @@
 			}
 		}
 	} 
+}
 
 // Phones
 @media only screen and (max-width: $smaller-width) {
@@ -121,5 +123,4 @@
 			display: none;
 		}
 	}
-
 }
