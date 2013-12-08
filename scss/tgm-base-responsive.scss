@@ -56,78 +56,6 @@ $sml-screen-margin: 10px;
 // Big phones, small tablets
 @media only screen and (max-width: $small-width) {
 
-	.special-feature-misc {
-		display: none;
-	}
-
-	.article-title-container {
-		margin: 5px $med-screen-margin 0 0;
-		float: right;
-		width: auto;
-	}
-
-	.article-nav-container {
-		&.fixed {
-			height: auto;
-			padding: 10px 0;
-		}
-		&.footer {
-			padding: 0 0 3em 0;
-		}
-
-		.nav-extra, .nav {
-			width: 100%;
-			float: none;
-			height: auto;
-			/* .clearfix; */
-		}
-
-		.about-the-series {
-			.title {
-				text-align: center;
-			}
-		}
-
-		.nav {
-			margin-bottom: 1em;
-			li {
-				a {
-					border-right-style: solid;					
-				}
-				&:first-child a { border-left-width: 0; } 
-				&:last-child a { border-right-width: 0; } 
-			}			
-		}
-
-		.appendix {
-			li {
-				float: left;
-				padding: 0;
-				margin-right: 10px;
-				margin-bottom: 0;
-				padding-right: 10px;
-				border-right: 1px solid $accent-color-trsp;
-				&:first-child {
-					border-right: none;
-					padding-right: 0;
-					margin-right: 0;
-				};
-				&:last-child {
-					border-right: none;
-					padding-right: 0;
-					margin-right: 0;
-				};
-			}
-
-			.title {
-				display: inline;
-				&:after {
-					content: ': ';
-				};
-			}
-		}
-	} 
-
 	.article-header {
 		padding: $med-screen-margin;
 		
@@ -147,7 +75,6 @@ $sml-screen-margin: 10px;
 			&:before { display: none; }
 		}
 	}
-
 
 	.content {
 		/* .font-size(16);*/
@@ -181,10 +108,4 @@ $sml-screen-margin: 10px;
 
 // Phones
 @media only screen and (max-width: $smaller-width) {
-	.article-title-container {
-		.article-title {
-			display: none;
-		}
-	}
-
 }
