@@ -11,7 +11,11 @@
 // Default scaffolding
 @import 'tgm-base';
 @import 'tgm-header';
+
+// Reponsive
 @import 'tgm-responsive';
+@import 'tgm-base-responsive';
+@import 'tgm-header-responsive';
 
 // Widgets
 // @import 'widgets/tgm-special-nav';
