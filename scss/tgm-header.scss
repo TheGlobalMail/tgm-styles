@@ -39,12 +39,13 @@ $tgm-logo-path: "/images/tgm-strip-logo-masthead.png";
 
 // TGM Special Feature Banner
 .navbar.special-feature {
-  text-align: center;
-  position: relative;
-  background-color: #1b1b1b;
-  height: 32px;
+  margin-bottom: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
   padding: 8px 0px;
-
   .brand {
     @include hide-text;
     display: block;
@@ -58,6 +59,65 @@ $tgm-logo-path: "/images/tgm-strip-logo-masthead.png";
     &.brand-center {
       margin: 0 auto;
       float: none;
+    }
+  }
+
+  .article-title-container {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    opacity: 0.1;
+    cursor: pointer;
+    @include transition(opacity 0.75s ease-in-out);
+    &.visible,
+    &:hover,
+    &.child-nav-visible {
+      opacity: 1;
+    }
+    &.visible {
+      /* @include transition(opacity 2s ease-in-out); */
+    }
+
+    // burgertron
+    .burger {
+      font-size: 1.8em;
+      margin: 0 0 0 8px;
+      color: $cream;
+    }
+  }
+
+  .article-title {
+    font-size: 1.6em;
+    line-height: 32px;
+    color: $cream;
+    font-family: $font-family-sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+  }
+
+  .article-nav-container {
+    text-align: left;
+    $fixedArticleNavHeight: 180px;
+    $navbarHeight: 48px;
+    $fixedArticleNavPaddingTop: 20px;
+    /* @include clearfix; */
+    &.fixed {
+      background-color: $trspDarkBrown;
+      position: fixed;
+      width: 100%;
+      height: $fixedArticleNavHeight;
+      // Initialise outside the viewport, inline css takes over afterwards
+      top: -9999px;
+      z-index: 3;
+      @include transform(translateZ(0));
+      /*@include transition(top 0.5s ease-in-out);*/
+      padding-top: $fixedArticleNavPaddingTop;
+      &.visible {
+        top: $navbarHeight;
+        /*@include box-shadow(0 2px 10px $trspBlack);*/
+      }
     }
   }
 
