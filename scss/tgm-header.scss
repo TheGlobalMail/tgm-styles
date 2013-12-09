@@ -71,6 +71,7 @@ $tgm-logo-path: "/images/tgm-strip-logo-masthead.png";
     position: relative;
     opacity: 0.5;
     cursor: pointer;
+    text-align: center;
     @include transition(opacity 0.75s ease-in-out);
     &.visible,
     &:hover,
