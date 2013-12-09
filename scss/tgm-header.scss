@@ -46,6 +46,7 @@ $tgm-logo-path: "/images/tgm-strip-logo-masthead.png";
   z-index: 1000;
   width: 100%;
   padding: 8px 0px;
+  background-color: $navbar-bg-color;
   .brand {
     @include hide-text;
     display: block;
