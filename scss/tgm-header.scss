@@ -104,7 +104,7 @@ $tgm-logo-path: "/images/tgm-strip-logo-masthead.png";
     $fixed-article-nav-padding-top: 20px;
     /* @include clearfix; */
     &.fixed {
-      background-color: $trsp-dark-brown;
+      background-color: $accent-color-trsp;
       position: fixed;
       width: 100%;
       height: $fixed-article-nav-height;
