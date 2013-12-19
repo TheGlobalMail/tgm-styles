@@ -5,7 +5,7 @@
     "./dist/tgm-main.css"
   ],
   "ignore": [],
-  "devDependencies": {
+  "dependencies": {
     "sass-bootstrap": "~3.0.2"
   }
 }
