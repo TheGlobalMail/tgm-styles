@@ -2,125 +2,125 @@
 
 // iPad Landscape & smaller screens
 @media only screen and (max-width: $big-width) {
-	.article-header {
-		.header {
-			letter-spacing: 0.4em;
-			padding-bottom: 0;
-		}
-	}
+  .article-header {
+    .header {
+      letter-spacing: .4em;
+      padding-bottom: 0;
+    }
+  }
 
-	.article-nav-container .nav-extra,
-	.article-nav .article-nav-title  {
-	  font-size: 1.2em;
-	}
+  .article-nav-container .nav-extra,
+  .article-nav .article-nav-title {
+    font-size: 1.2em;
+  }
 
-	article {
-	  &.introduction {
-	    .article-header {
-	      .header {
+  article {
+    &.introduction {
+      .article-header {
+        .header {
           top: 37%;
-	      }
-	    }
-	  }
-	}
+        }
+      }
+    }
+  }
 }
 
 // Portrait tablets
 @media only screen and (max-width: $med-width) {
-	.article-nav-container {
-		.overlay-coming-soon {
-			top: 50%;
-			height: 50%;
-		}
-	}
+  .article-nav-container {
+    .overlay-coming-soon {
+      height: 50%;
+      top: 50%;
+    }
+  }
 
-	.article-header .image {
-		height: 45vh;
-	}
+  .article-header .image {
+    height: 45vh;
+  }
 
 }
 
 // Big phones, small tablets
 @media only screen and (max-width: $small-width) {
 
-	.special-feature-misc {
-		display: none;
-	}
+  .special-feature-misc {
+    display: none;
+  }
 
-	.article-title-container {
-		margin: 5px $med-screen-margin 0 0;
-		float: right;
-		width: auto;
-	}
+  .article-title-container {
+    float: right;
+    margin: 5px $med-screen-margin 0 0;
+    width: auto;
+  }
 
-	.article-nav-container {
-		&.fixed {
-			height: auto;
-			padding: 10px 0;
-		}
-		&.footer {
-			padding: 0 0 3em 0;
-		}
+  .article-nav-container {
+    &.fixed {
+      height: auto;
+      padding: 10px 0;
+    }
+    &.footer {
+      padding: 0 0 3em;
+    }
 
-		.nav-extra, .nav {
-			width: 100%;
-			float: none;
-			height: auto;
-			/* .clearfix; */
-		}
+    .nav-extra, .nav {
+      float: none;
+      height: auto;
+      width: 100%;
+      /* .clearfix; */
+    }
 
-		.about-the-series {
-			.title {
-				text-align: center;
-			}
-		}
+    .about-the-series {
+      .title {
+        text-align: center;
+      }
+    }
 
-		.nav {
-			margin-bottom: 1em;
-			li {
-				a {
-					border-right-style: solid;					
-				}
-				&:first-child a { border-left-width: 0; } 
-				&:last-child a { border-right-width: 0; } 
-			}			
-		}
+    .nav {
+      margin-bottom: 1em;
+      li {
+        a {
+          border-right-style: solid;          
+        }
+        &:first-child a { border-left-width: 0; } 
+        &:last-child a { border-right-width: 0; } 
+      }     
+    }
 
-		.appendix {
-			li {
-				float: left;
-				padding: 0;
-				margin-right: 10px;
-				margin-bottom: 0;
-				padding-right: 10px;
-				border-right: 1px solid $accent-color-trsp;
-				&:first-child {
-					border-right: none;
-					padding-right: 0;
-					margin-right: 0;
-				};
-				&:last-child {
-					border-right: none;
-					padding-right: 0;
-					margin-right: 0;
-				};
-			}
+    .appendix {
+      li {
+        float: left;
+        padding: 0;
+        margin-right: 10px;
+        margin-bottom: 0;
+        padding-right: 10px;
+        border-right: 1px solid $accent-color-trsp;
+        &:first-child {
+          border-right: none;
+          padding-right: 0;
+          margin-right: 0;
+        };
+        &:last-child {
+          border-right: none;
+          padding-right: 0;
+          margin-right: 0;
+        };
+      }
 
-			.title {
-				display: inline;
-				&:after {
-					content: ': ';
-				};
-			}
-		}
-	} 
+      .title {
+        display: inline;
+        &:after {
+          content: ': ';
+        };
+      }
+    }
+  } 
 }
 
 // Phones
 @media only screen and (max-width: $smaller-width) {
-	.article-title-container {
-		.article-title {
-			display: none;
-		}
-	}
+  .article-title-container {
+    .article-title {
+      display: none;
+    }
+  }
 }
